@@ -5,7 +5,7 @@
 .topNav {
     background-color: #333;
     overflow: hidden;
-    width: 1425px;
+    width: 1200px;
 }
 
 
@@ -38,14 +38,11 @@
   float: right;
   padding-right: 30px;
   color: white;
-}
+  }
 
 
-
-
-/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
-    display: none;
+    display: none;  
   }
 
 
@@ -55,6 +52,21 @@
 
 
 
+
+.mainContent {
+  border: 1px solid blue;
+  padding: 200px;
+  margin: 100px;
+}
+
+.mainContent h1 {
+  border: 2px dotted red;
+  margin-bottom: 200px;
+}
+
+.mainContent p {
+  margin-bottom: 200px;
+}
 
 
 
