@@ -79,12 +79,18 @@ nav a:focus {
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* display: inline; */
 
     
 }
 
 .projectsContainer ul {
     list-style: none;
+
+}
+
+.projectsContainer ul li {
+    display: inline;
 }
 
 
@@ -104,6 +110,10 @@ nav a:focus {
     list-style: none;
 }
 
+.skillsContainer ul li {
+    display: inline;
+}
+
 
 .contactContainer {
     padding: 65px;
@@ -116,6 +126,10 @@ nav a:focus {
 
 .contactContainer ul {
     list-style: none;
+}
+
+.contactContainer ul li {
+    display: inline;
 }
 
 
