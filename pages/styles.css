@@ -59,6 +59,66 @@ nav a:focus {
     color: #fd5f00;
 }
 
+
+
+
+
+/* Main Content */
+.aboutContainer {
+    border: solid blue;
+    padding: 65px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.projectsContainer {
+    border: solid black;
+    padding: 65px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.projectsContainer ul {
+    list-style: none;
+}
+
+
+.skillsContainer {
+    border: dotted green;
+    padding: 65px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+    
+    
+}
+
+.skillsContainer ul {
+    list-style: none;
+}
+
+
+.contactContainer {
+    padding: 65px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 65px;
+
+}
+
+.contactContainer ul {
+    list-style: none;
+}
+
+
 @media (max-width: 640px) {
     .container {
       text-align: center;
